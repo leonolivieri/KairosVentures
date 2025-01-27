@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\Kairos Ventures</_PublishTargetUrl>
+    <History>True|2023-12-22T23:01:07.0446193Z;True|2023-12-19T08:59:35.4072250-03:00;True|2023-12-14T20:38:56.8999090-03:00;False|2023-12-14T20:38:00.7338413-03:00;False|2023-12-14T20:37:54.4646343-03:00;True|2023-12-14T20:11:18.4269492-03:00;True|2023-12-14T09:46:11.8828902-03:00;False|2023-12-14T09:44:45.6937485-03:00;True|2023-12-08T16:51:46.4444093-03:00;False|2023-12-08T16:50:48.6292450-03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

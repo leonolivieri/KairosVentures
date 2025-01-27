@@ -1,0 +1,42 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+.nav-item.dropdown .dropdown-menu {
+    left: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    background-image: url('/Images/Fundo2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+}
+
+.card-header {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.card-body {
+    color: #000000; /* Cor preta */
+}

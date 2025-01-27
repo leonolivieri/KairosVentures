@@ -1,0 +1,63 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Kairos_Ventures.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <form id="clienteForm" action="/Clientes/Create" method="post">
+            <h1 class="my-4">Inclusão de novo cliente</h1>
+            <div class="row">
+                <div class="mb-3 col-md-2">
+                    <label for="CPF">CPF</label>
+                    <input type="text" id="CPF" name="CPF" class="form-control" required pattern="[0-9]{11}" />
+                </div>
+                <div class="mb-3 col">
+                    <label for="Nome">Nome</label>
+                    <input type="text" id="Nome" name="Nome" class="form-control" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-3 col-md-2">
+                    <label for="Telefone">Telefone</label><br>
+                    <input type="tel" id="Telefone" name="Telefone" class="form-control" required pattern="[0-9]{10,11}" />
+                </div>
+                <div class="mb-3 col-md-2">
+                    <label for="cep">CEP</label><br>
+                    <input type="text" id="cep" name="cep" class="form-control" required pattern="[0-9]{8}" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-3 col">
+                    <label for="Endereco">Endereço </label>
+                    <input type="text" id="Endereco" name="Endereco" class="form-control" required />
+                </div>
+                <div class="mb-3 col-md-2">
+                    <label for="Numero">Numero </label>
+                    <input type="number" id="Numero" name="Numero" class="form-control" required />
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="bairro">Bairro</label>
+                <input type="text" id="bairro" name="bairro" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="cidade">Cidade</label><br />
+                <input type="text" id="cidade" name="cidade" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="estado">Estado</label>
+                <input type="text" id="estado" name="estado" class="form-control" required />
+            </div>
+            <button type="submit" class="btn btn-primary">Salvar</button>
+        </form>
+    </div>
+</body>
+</html>

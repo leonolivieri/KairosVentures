@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Kairos Ventures.props" />
+</Project>

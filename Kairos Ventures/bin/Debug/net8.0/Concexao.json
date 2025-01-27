@@ -1,0 +1,15 @@
+{
+  "MSSQL": {
+    "HOST": "HOST",
+    "PASSWORD": "SENHA",
+    "USER": "USUARIO",
+    "Banco": "banco"
+  },
+  "MYSQL": {
+    "HOST": "HOST",
+    "PASSWORD": "SENHA",
+    "USER": "USUARIO",
+    "Banco": "banco"
+  }
+
+}
